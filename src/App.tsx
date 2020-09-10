@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { MyCoolButton } from "./components/MyCoolButton";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <br />
+        <MyCoolButton primary label={"My Cool Button"}></MyCoolButton>
       </header>
     </div>
   );
